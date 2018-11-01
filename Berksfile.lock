@@ -1,0 +1,26 @@
+DEPENDENCIES
+  mongoDB
+    git: git@github.com:samGilbert95/jenkins_mongo_webhook.git
+    revision: d6fdbaa685af07764b5894cc02d7b80d43d9792c
+  node
+    git: git@github.com:samGilbert95/jenkins_webhook_lab.git
+    revision: f8b3791614ef44ec56b2b948062e877292c578ce
+
+GRAPH
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  mongoDB (0.1.0)
+  node (0.1.0)
+    nodejs (~> 5.0.0)
+  nodejs (5.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 0.0.0)
+  seven_zip (3.0.0)
+    windows (>= 0.0.0)
+  windows (5.1.4)
